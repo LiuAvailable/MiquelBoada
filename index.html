@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Especificacions Article</title>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script src="https://kit.fontawesome.com/02053ec565.js"></script>
+</head>
+<body>
+	<label>Familia: </label>
+	<select></select>
+	<form>
+		<div class="codi">
+			<label>Codi:</label>
+			<input type="text" name="codi"/>
+			<i class="fa-solid fa-circle-xmark"></i>	
+		</div>
+		<label>Nom: </label>
+		<input type="text" name="nom">
+		<div class="dimentions">
+			<label>Amplada: </label><input type="number" name="dimentions">
+			<label>Llargada: </label><input type="number" name="dimentions">
+			<label>Alçada: </label><input type="number" name="dimentions">
+			<label id="dim_result"></label>
+		</div><br>
+		<div class="ubicacio">
+			<label>Passadís: </label><input type="text" name="passadis">
+			<i id="i_passadis"class="fa-solid fa-circle-xmark"></i><br>
+			<label>Estanteria: </label><input type="text" name="estanteria">
+			<i id="i_estanteria" class="fa-solid fa-circle-xmark"></i><br>
+			<label>Forat: </label><input type="text" name="forat">
+			<i id="i_forat" class="fa-solid fa-circle-xmark"></i>		
+		</div>
+		<div class="comprovacio"></div>
+		<input value="enviar"type="button" name="submit">
+	</form>
+</body>
+</html>
