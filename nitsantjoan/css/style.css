@@ -1,0 +1,28 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+input{margin-top: 20px;}
+section
+{
+	padding-top: 5vh;
+	padding-left: 10px;
+	width: 100vw;
+	height: 80vh;
+}
+#espai
+{
+	position: relative;
+	width: 1300px;
+	height: 625px;
+	background: black;
+}
+.estrella
+{
+	position: absolute;
+	background: white;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
